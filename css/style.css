@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("../img/backgrounds/bg.png");
+}
+
+.wallpaper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 50px 0 100px 0;
+}
+
+.menu__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu__line {
+  display: inline-block;
+  background: #3c3c3e;
+  width: 3px;
+  height: 120px;
+  margin: 5px 50px 0 50px;
+  border-radius: 50px;
+}
+
+.menu__img:hover {
+  background: #ffffff0a;
+  border-radius: 10px;
+}
+
+.menu__img:active {
+  background: #ffffff31;
+  border-radius: 10px;
+}
+
+.squad {
+  text-align: center;
+  margin: 150px 0 0 0;
+}
+
+.squad__title {
+  font-size: 260px;
+  font-family: "Concert One";
+  color: #b9b9b9;
+  text-transform: uppercase;
+}
+
+.squad__subtitle {
+  font-size: 50px;
+  font-family: "Staatliches";
+  color: #6c6c6e;
+  margin: 55px 0 0 0;
+}
+
+.squad__items {
+  margin: 100px 0 100px 0;
+}
+
+.squad__img {
+  background: url("../img/blockIcons/dota2Icon.png") no-repeat;
+  width: 205px;
+  height: 203px;
+  margin: 0 auto;
+}
+
+.squad__text {
+  font-size: 36px;
+  font-family: "Staatliches";
+  font-style: bold;
+  color: #b9b9b9;
+  margin: 35px 0 0 0;
+  text-transform: uppercase;
+}
+
+.blocks__info {
+  background: #5c5c5e;
+  border-radius: 30px;
+  width: 1150px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.blocks__itemsinfo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 55px;
+}
+
+.blocks__block {
+  background: #5c5c5e;
+  border-radius: 50px;
+  width: 1150px;
+  height: 120px;
+  margin: 40px auto;
+}
+
+.blocks__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  font-size: 24px;
+  color: #f4fffa;
+  line-height: 40px;
+}
+
+.blocks__itemsblock {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+}
+
+.blocks__linkitem img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.blocks__linkitem {
+  margin: 0 5px 0 5px;
+}
+
+.blocks__linkitem img:hover {
+  background: #6c6c6e;
+  border-radius: 10px;
+}
+
+.blocks__linkitem img:active {
+  background: #4c4c4e;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: #b9b9b9;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__link {
+  font-size: 24px;
+  color: #7289da;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.footer__link:hover {
+  color: #ff9100;
+}
+
+.footer__link:active {
+  color: #fd6363;
+}
